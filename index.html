@@ -4,13 +4,18 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>LandingPage</title>
-		<link rel="stylesheet" href="bootstrap.min.css">
+		<link rel="stylesheet" href="https://github.com/anton-kachur/ant-kachur.github.io/blob/master/bootstrap.min.css">
+		<link rel="stylesheet" href="https://github.com/anton-kachur/ant-kachur.github.io/blob/master/bootstrap-grid.min.css">
 		<link rel="stylesheet" href="style.css">
 		<link rel="icon" type="icon" href="https://github.com/anton-kachur/ant-kachur.github.io/blob/master/logo.png?raw=true">
 		<link href="https://fonts.googleapis.com/css?family=Reem+Kufi&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700,900&display=swap&subset=cyrillic" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	</head>
 	<body>
+	
 	<div class="banner head">
 		<nav class="navbar navbar-expand-md navbar-fixed-top">
 				<div class="container">
@@ -18,14 +23,28 @@
 						<img src="https://github.com/anton-kachur/ant-kachur.github.io/blob/master/logo_for_header.png?raw=true" width="45" height="37" class="d-inline-block align-top" alt="">
 						OneStep
 					</a>
+					
 					<div class="row">
 					 <div class="row-md-6 top-add">
 						<a href="#services">УСЛУГИ</a>
 						<a href="#portfolio">ПОРФТОЛИО</a>
 						<a href="#features">ПРЕИМУЩЕСТВА</a>
 						<a href="#">+38(096)359-17-36</a>
-						<a href="#application" class="btn" role="button">ОТПРАВИТЬ ЗАЯВКУ</a>
+						<a href="#application" class="btn btn-0" role="button">ОТПРАВИТЬ ЗАЯВКУ</a>
 					</div>
+					
+					<div class="btn-group">
+						<img src="https://github.com/anton-kachur/ant-kachur.github.io/blob/master/open-menu.png?raw=true" width="42" height="44" class="d-inline-block align-top" alt="" class="dropdown-toogle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="#services">Услуги</a>
+							<a class="dropdown-item" href="#portfolio">Портфолио</a>
+							<a class="dropdown-item" href="#features">Преимущества</a>
+							<a class="dropdown-item" href="#">+38(096)359-17-36</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#application">Отправить заявку</a>
+						</div>
+					</div>
+					
 				</div>
 			</div>
 		</nav>
@@ -40,60 +59,59 @@
 		
 		<div class="buttons">
 			<div class="row">
-				<div class="row-md-2">
-					<a href="#services" class="btn btn-1" role="button"><div class="first">Наши услуги</div></a>
-					<a href="#portfolio" class="btn btn-2" role="button"><div class="second">Портфолио</div></a>
-					
-				</div>
+				<a href="#services" class="btn btn-1" role="button"><div class="first">Наши услуги</div></a>
+				<a href="#portfolio" class="btn btn-2" role="button"><div class="second">Портфолио</div></a>
 			</div>
 		</div>
 	</div>
 		
 	<div class="container main-topics" id="services">
-		<h1 >НАШИ УСЛУГИ</h1>
+		<h1>НАШИ УСЛУГИ</h1>
 			<div class="row">
-				<a class="col-md-2" href="#"> 
+				<a class="s-1" href="#"> 
 					<img src="https://github.com/anton-kachur/ant-kachur.github.io/blob/master/global.png?raw=true" width="68" height="66" class="d-inline-block align-top" alt="">
 					<h2>Создание</h2>
 					<h2>сайтов</h2>
 				</a>
-				<a class="col-md-2" href="#"> 
+				<a class="s-2" href="#"> 
 					<img src="https://github.com/anton-kachur/ant-kachur.github.io/blob/master/architecture-and-city.png?raw=true" width="68" height="66" class="d-inline-block align-top" alt="">
 					<h2>Создание</h2>
-					<h2>Landing Page</h2>
+					<h2>Landing</h2>
+					<h2>Page</h2>
 				</a>
-				<a class="col-md-2" href="#"> 
+				<a class="s-3" href="#"> 
 					<img src="https://github.com/anton-kachur/ant-kachur.github.io/blob/master/name.png?raw=true" width="68" height="66" class="d-inline-block align-top" alt="">
 					<h2>Создание</h2>
 					<h2>сайта-</h2>
 					<h2>визитки</h2>
 				</a>
-				<a class="col-md-2" href="#"> 
+				<a class="s-4" href="#"> 
 					<img src="https://github.com/anton-kachur/ant-kachur.github.io/blob/master/speaker.png?raw=true" width="68" height="66" class="d-inline-block align-top" alt="">
 					<h2>Реклама</h2>
 				</a>
-				<a class="col-md-2" href="#"> 
+				<a class="s-5" href="#"> 
 					<img src="https://github.com/anton-kachur/ant-kachur.github.io/blob/master/computer.png?raw=true" width="68" height="66" class="d-inline-block align-top" alt="">
-					<h2>Веб-дизайн</h2>
+					<h2>Веб-</h2><h2>дизайн</h2>
 				</a>
 			</div>
+			
 	</div>
 	
 	<div class="banner portfolio" id="portfolio">
 		<div class="container">
 			<h1>ПОРФТОЛИО</h1>
-			<div class="row-md-2">
+			<div class="row">
 				<img src="https://github.com/anton-kachur/ant-kachur.github.io/blob/master/portfolio1.png?raw=true" width="500" height="490"  class="d-inline-block align-top" alt="">
 				<img src="https://github.com/anton-kachur/ant-kachur.github.io/blob/master/portfolio2.png?raw=true" width="500" height="490" alt="">
-				<button type="button" class="btn">Покажите больше работ</button>
 			</div>
-		</div>
+				<a href="#" class="btn btn-3" role="button">Покажите больше работ</a>
+			</div>
 	</div>
 	
 	<div class="banner features" id="features">
 		<h1>НАШИ ПРЕИМУЩЕСТВА</h1>
 			<div class="row">
-				<div class="col-md-3"> 
+				<div class="f-1"> 
 					<h2>Инновационный</h2>
 					<h2>подход</h2>
 					<div class="txt-2">
@@ -102,7 +120,7 @@
 						<div class="subtitle">зато честно</div>
 					</div>
 				</div>
-				<div class="col-md-3"> 
+				<div class="f-2"> 
 					<h2>Сроки</h2><br>
 					<div class="txt-2">
 						<div class="subtitle">Всегда успеваем</div>
@@ -110,7 +128,7 @@
 						<div class="subtitle">клиент - наше всё</div>
 					</div>
 				</div>
-				<div class="col-md-3"> 
+				<div class="f-3"> 
 					<h2>Цена</h2><br>
 					<div class="txt-2">
 						<div class="subtitle">Готовы</div>
@@ -177,7 +195,7 @@
 	<div class="banner footer" id="contacts">
 		<div class="row">
 
-				<div class="col-md-4" href="#"> 
+				<div class="fo-1" href="#"> 
 					<h2>МЕНЮ</h2>
 					<a href="#services"><div class="subtitle">Наши услуги</div></a>
 					<a href="#portfolio"><div class="subtitle">Портфолио</div></a>
@@ -185,7 +203,7 @@
 					<a href="#contacts"><div class="subtitle">Контакты</div></a>
 				</div>
 				
-				<div class="col-md-4" href="#"> 
+				<div class="fo-2" href="#"> 
 					<h2>УСЛУГИ</h2>
 					<div class="row-6">
 						<a href="#"><div class="subtitle">Создание сайтов</div></a>
@@ -196,7 +214,7 @@
 					</div>
 				</div>
 					 
-				<div class="col-md-4" href="#"> 
+				<div class="fo-3" href="#"> 
 					<h2>КОНТАКТЫ</h2>
 					<a href="#"><div class="subtitle">+38(096)359-17-36</div></a>
 					<a href="#"><div class="subtitle">best@onestep.agency</div></a>
@@ -208,7 +226,7 @@
 				</div>
 			
 			</div>
-			<div class="copyright">© 2020 Web studio OneStep<div>
+			<div class="copyright">© 2020 Web studio OneStep</div>
 	</div>
 	
 	</body>
